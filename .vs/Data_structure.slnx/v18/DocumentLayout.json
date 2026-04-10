@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\cppProject\\Data_structure\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8A46A186-F41C-461B-8B06-C1B05A3DC9F4}|Data_structure.vcxproj|D:\\cppProject\\Data_structure\\vector.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8A46A186-F41C-461B-8B06-C1B05A3DC9F4}|Data_structure.vcxproj|solutionrelative:vector.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A46A186-F41C-461B-8B06-C1B05A3DC9F4}|Data_structure.vcxproj|D:\\cppProject\\Data_structure\\\u624B\u5199\u987A\u5E8F\u8868.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8A46A186-F41C-461B-8B06-C1B05A3DC9F4}|Data_structure.vcxproj|solutionrelative:\u624B\u5199\u987A\u5E8F\u8868.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "vector.cpp",
+              "DocumentMoniker": "D:\\cppProject\\Data_structure\\vector.cpp",
+              "RelativeDocumentMoniker": "vector.cpp",
+              "ToolTip": "D:\\cppProject\\Data_structure\\vector.cpp",
+              "RelativeToolTip": "vector.cpp",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-10T06:04:22.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "\u624B\u5199\u987A\u5E8F\u8868.cpp",
+              "DocumentMoniker": "D:\\cppProject\\Data_structure\\\u624B\u5199\u987A\u5E8F\u8868.cpp",
+              "RelativeDocumentMoniker": "\u624B\u5199\u987A\u5E8F\u8868.cpp",
+              "ToolTip": "D:\\cppProject\\Data_structure\\\u624B\u5199\u987A\u5E8F\u8868.cpp",
+              "RelativeToolTip": "\u624B\u5199\u987A\u5E8F\u8868.cpp",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAAAFEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-10T05:17:55.092Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
