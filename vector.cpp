@@ -13,11 +13,12 @@ vector是C++标准库提供的一个动态数组容器，具有以下特点：
 4.at(index)：返回vector中指定位置的元素，并进行边界检查。
 */
 using namespace std;
-int main() {
+int main2() {
 	vector<int> ret = { 1,2,3,4,5 };
 	ret.push_back(60);
 	for (int i = 0;i < ret.size();i++) {
 		cout << ret[i] << " ";
 	}
 	cout << ret.at(2) << endl;
+	return 0;
 }

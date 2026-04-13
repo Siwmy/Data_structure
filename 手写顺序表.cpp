@@ -1,5 +1,6 @@
 ﻿#include<iostream>
-#include<cassert>
+#include<algorithm>
+#include<iomanip>
 using namespace std;
 /*
 1.检查索引位置是否合法
@@ -7,20 +8,21 @@ using namespace std;
 3.将插入位置之后的元素依次后移
 4.将新元素插入到指定位置
 */
+#define eletype double
 
 struct SequentialList
 {
-	int* data;
+	eletype* data;
 	int size;
 	int capacity;
 	SequentialList(int size) {
 		this->size = 0;
 		this->capacity = size;
-		this->data = new int[size];
+		this->data = new eletype[size];
 	}
 	~SequentialList(){
 		delete[] data;
-		cout << "顺序表已销毁" << endl;
+		//cout << "顺序表已销毁" << endl;
 	}
 
 	void insert(int index, int value) {  //插入
@@ -32,7 +34,7 @@ struct SequentialList
 		if (size == capacity) {
 			int newcapacity = capacity * 2;
 			if (newcapacity == 0) newcapacity = 1; //处理初始容量为0的极端情况
-			int* newdata = new int[newcapacity];
+			eletype* newdata = new eletype[newcapacity];
 			for (int i = 0;i < size;i++) {
 				newdata[i] = data[i];
 			}
@@ -78,28 +80,29 @@ struct SequentialList
 	}
 };
 
+bool cmp(eletype a, eletype b) {
+	return a < b;
+}
 
 int main1()
 {
-	SequentialList list(10);
-	cout << list.capacity << " " << list.size << endl;
-	for (int i = 0;i < 10;i++)
-		list.insert(i, i * 10);
-	for (int i = 0;i < list.size;i++)
-		cout << list.data[i] << " ";
-	cout << endl;
-	list.change(2, 520);
-	for (int i = 0;i < list.size;i++)
-		cout << list.data[i] << " ";
-	cout << endl;
-	list.insert(6, 1090);
-	cout << list.capacity << " " << list.size << endl;
-	for (int i = 0;i < list.size;i++)
-		cout << list.data[i] << " ";
-	cout << endl;
-	list.deleteList(4);
-	for (int i = 0;i < list.size;i++)
-		cout << list.data[i] << " ";
-	cout << endl;
+	int n;
+	while (cin >> n)
+	{
+		if (n == 0)break;
+		SequentialList list(n);
+		int sum_0 = 0, sum_1 = 0, sum_2 = 0;
+		double a;
+		double sum = 0;
+		for (int i = 0;i < n;i++) {
+			cin >> a;
+			list.insert(i, a);
+			sum += a;
+		}
+		sort(list.data, list.data + list.size, cmp);
+		sum = sum - list.data[0] - list.data[n - 1];
+		cout << fixed << setprecision(2) << sum / (n - 2) << endl;
+		
+	}
 	return 0;
 }

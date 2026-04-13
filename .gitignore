@@ -1,0 +1,12 @@
+# 忽略 VS 缓存
+.vs/
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.log
+
+# 忽略编译输出
+Debug/
+Release/
+x64/

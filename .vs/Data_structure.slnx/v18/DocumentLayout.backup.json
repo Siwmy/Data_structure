@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\cppProject\\Data_structure\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8A46A186-F41C-461B-8B06-C1B05A3DC9F4}|Data_structure.vcxproj|D:\\cppProject\\Data_structure\\vector.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8A46A186-F41C-461B-8B06-C1B05A3DC9F4}|Data_structure.vcxproj|solutionrelative:vector.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{8A46A186-F41C-461B-8B06-C1B05A3DC9F4}|Data_structure.vcxproj|D:\\cppProject\\Data_structure\\\u5355\u5411\u94FE\u8868.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8A46A186-F41C-461B-8B06-C1B05A3DC9F4}|Data_structure.vcxproj|solutionrelative:\u5355\u5411\u94FE\u8868.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8A46A186-F41C-461B-8B06-C1B05A3DC9F4}|Data_structure.vcxproj|D:\\cppProject\\Data_structure\\\u624B\u5199\u987A\u5E8F\u8868.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8A46A186-F41C-461B-8B06-C1B05A3DC9F4}|Data_structure.vcxproj|solutionrelative:\u624B\u5199\u987A\u5E8F\u8868.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A46A186-F41C-461B-8B06-C1B05A3DC9F4}|Data_structure.vcxproj|D:\\cppProject\\Data_structure\\vector.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8A46A186-F41C-461B-8B06-C1B05A3DC9F4}|Data_structure.vcxproj|solutionrelative:vector.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,12 +43,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "\u5355\u5411\u94FE\u8868.cpp",
+              "DocumentMoniker": "D:\\cppProject\\Data_structure\\\u5355\u5411\u94FE\u8868.cpp",
+              "RelativeDocumentMoniker": "\u5355\u5411\u94FE\u8868.cpp",
+              "ToolTip": "D:\\cppProject\\Data_structure\\\u5355\u5411\u94FE\u8868.cpp*",
+              "RelativeToolTip": "\u5355\u5411\u94FE\u8868.cpp*",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAHUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-13T03:41:54.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "vector.cpp",
               "DocumentMoniker": "D:\\cppProject\\Data_structure\\vector.cpp",
               "RelativeDocumentMoniker": "vector.cpp",
               "ToolTip": "D:\\cppProject\\Data_structure\\vector.cpp",
               "RelativeToolTip": "vector.cpp",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-04-10T06:04:22.805Z",
               "EditorCaption": ""
@@ -57,7 +74,7 @@
               "RelativeDocumentMoniker": "\u624B\u5199\u987A\u5E8F\u8868.cpp",
               "ToolTip": "D:\\cppProject\\Data_structure\\\u624B\u5199\u987A\u5E8F\u8868.cpp",
               "RelativeToolTip": "\u624B\u5199\u987A\u5E8F\u8868.cpp",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAAAFEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAuwFYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-04-10T05:17:55.092Z",
               "EditorCaption": ""
