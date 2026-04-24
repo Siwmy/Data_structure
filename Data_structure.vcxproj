@@ -127,9 +127,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="c++中的queue.cpp" />
+    <ClCompile Include="c++中的stack.cpp" />
+    <ClCompile Include="test.cpp" />
     <ClCompile Include="vector.cpp" />
+    <ClCompile Include="二叉搜索树.cpp" />
+    <ClCompile Include="二叉树.cpp" />
     <ClCompile Include="单向链表.cpp" />
+    <ClCompile Include="基于链表的栈.cpp" />
+    <ClCompile Include="基于链表的队列.cpp" />
+    <ClCompile Include="基于顺序表的队列.cpp" />
+    <ClCompile Include="手写串.cpp" />
     <ClCompile Include="手写顺序表.cpp" />
+    <ClCompile Include="基于顺序表的栈.cpp" />
+    <ClCompile Include="树.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

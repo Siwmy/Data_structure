@@ -84,25 +84,25 @@ bool cmp(eletype a, eletype b) {
 	return a < b;
 }
 
-int main1()
-{
-	int n;
-	while (cin >> n)
-	{
-		if (n == 0)break;
-		SequentialList list(n);
-		int sum_0 = 0, sum_1 = 0, sum_2 = 0;
-		double a;
-		double sum = 0;
-		for (int i = 0;i < n;i++) {
-			cin >> a;
-			list.insert(i, a);
-			sum += a;
-		}
-		sort(list.data, list.data + list.size, cmp);
-		sum = sum - list.data[0] - list.data[n - 1];
-		cout << fixed << setprecision(2) << sum / (n - 2) << endl;
-		
-	}
-	return 0;
-}
+//int main()
+//{
+//	int n;
+//	while (cin >> n)
+//	{
+//		if (n == 0)break;
+//		SequentialList list(n);
+//		int sum_0 = 0, sum_1 = 0, sum_2 = 0;
+//		double a;
+//		double sum = 0;
+//		for (int i = 0;i < n;i++) {
+//			cin >> a;
+//			list.insert(i, a);
+//			sum += a;
+//		}
+//		sort(list.data, list.data + list.size, cmp);
+//		sum = sum - list.data[0] - list.data[n - 1];
+//		cout << fixed << setprecision(2) << sum / (n - 2) << endl;
+//		
+//	}
+//	return 0;
+//}

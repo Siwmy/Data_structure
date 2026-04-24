@@ -16,6 +16,12 @@
     <Filter Include="源文件\顺序表">
       <UniqueIdentifier>{b8a14abe-8887-4fc1-87c6-eac2414b4c35}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\串">
+      <UniqueIdentifier>{ca31469d-3f7d-4d77-819a-91bc1261197b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tree">
+      <UniqueIdentifier>{fe672c87-488c-46f7-b86a-d08b8c8f88f7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="手写顺序表.cpp">
@@ -26,6 +32,39 @@
     </ClCompile>
     <ClCompile Include="单向链表.cpp">
       <Filter>源文件\顺序表</Filter>
+    </ClCompile>
+    <ClCompile Include="基于顺序表的栈.cpp">
+      <Filter>源文件\顺序表</Filter>
+    </ClCompile>
+    <ClCompile Include="基于链表的栈.cpp">
+      <Filter>源文件\顺序表</Filter>
+    </ClCompile>
+    <ClCompile Include="c++中的stack.cpp">
+      <Filter>源文件\顺序表</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>源文件\顺序表</Filter>
+    </ClCompile>
+    <ClCompile Include="基于顺序表的队列.cpp">
+      <Filter>源文件\顺序表</Filter>
+    </ClCompile>
+    <ClCompile Include="基于链表的队列.cpp">
+      <Filter>源文件\顺序表</Filter>
+    </ClCompile>
+    <ClCompile Include="c++中的queue.cpp">
+      <Filter>源文件\顺序表</Filter>
+    </ClCompile>
+    <ClCompile Include="手写串.cpp">
+      <Filter>源文件\串</Filter>
+    </ClCompile>
+    <ClCompile Include="树.cpp">
+      <Filter>源文件\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉树.cpp">
+      <Filter>源文件\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉搜索树.cpp">
+      <Filter>源文件\tree</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

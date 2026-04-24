@@ -3,6 +3,16 @@
 using namespace std;
 #define eletype int
 
+/*
+增删查改
+1.检查索引位置是否合法 <0  >size或者>=size   
+不合法时抛出异常 throw std::out_of_range("...")  头文件#include<stdexcept>
+根据索引位置来查找节点，根据值来查找节点
+剑网3中的应用：每个玩家直接用十字链表来连接，
+定义一个半径来确定和多大范围内的玩家相连，
+从而不与地图上所有玩家实时更新动作。
+*/
+
 struct listNode {
 	eletype data;
 	listNode* next;
@@ -107,20 +117,20 @@ void linkedlist::print() {
 		temp = temp->next;
 	}
 }
-int main() {
-	linkedlist list;
-	list.insert(0, 0);
-	list.insert(1, 10);
-	list.insert(2, 20);
-	list.insert(3, 30);
-	list.insert(4, 40);
-	list.insert(5, 50);
-	list.remove(3);
-	list.upgrate(1, 520);
-	list.upgrate(0, 530);
-	cout << list.find(50)->data << endl;
-	if (!list.find(80))
-		cout << "链表里面不存在80" << endl;
-	list.print();
-
-}
+//int main() {
+//	linkedlist list;
+//	list.insert(0, 0);
+//	list.insert(1, 10);
+//	list.insert(2, 20);
+//	list.insert(3, 30);
+//	list.insert(4, 40);
+//	list.insert(5, 50);
+//	list.remove(3);
+//	list.upgrate(1, 520);
+//	list.upgrate(0, 530);
+//	cout << list.find(50)->data << endl;
+//	if (!list.find(80))
+//		cout << "链表里面不存在80" << endl;
+//	list.print();
+//
+//}
